@@ -6,6 +6,7 @@ class WellnessTask(
     val id: Int,
     val label: String,
     initialChecked: Boolean = false
+
 ) {
     var checked by mutableStateOf(initialChecked)
 }

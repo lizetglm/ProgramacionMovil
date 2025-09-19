@@ -11,6 +11,7 @@ fun WellnessTasksList(
     onCheckedTask: (WellnessTask, Boolean) -> Unit,
     onCloseTask: (WellnessTask) -> Unit,
     modifier: Modifier = Modifier
+
 ) {
     LazyColumn(modifier = modifier) {
         items(

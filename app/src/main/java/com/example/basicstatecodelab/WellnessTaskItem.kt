@@ -32,6 +32,7 @@ fun WellnessTaskItem(
                 .weight(1f)
                 .padding(start = 16.dp),
             text = taskName
+
         )
         Checkbox(
             checked = checked,
